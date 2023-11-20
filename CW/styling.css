@@ -1,0 +1,244 @@
+      
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .bodyimage
+         {
+            font-family: Arial, sans-serif;
+            background-image: url("home-page.jpg"); /* Change to your image file's path */
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        
+        header img {
+            width: 100px; 
+            height: auto; 
+            margin-right: 20px; 
+            margin-top: -61px;
+        }
+
+        .right-aligned-img {
+    float: right;
+    margin-left: 20px; 
+        }
+
+    
+        section {
+            background-image: url("images/sunset.png");
+          }
+          
+        
+        header {
+            background-color: #007bff; 
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: #87cefa; 
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #about-us {
+            padding: 20px;
+        }
+
+        #about-us h2 {
+            color: #007bff; 
+        }
+
+        #about-us p {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* home page */
+        main {
+            padding: 20px;
+        }
+
+        #hero {
+            background-color: #87cefa; /* Light Blue */
+            padding: 40px;
+            text-align: center;
+        }
+
+        #hero h1 {
+            color: #007bff; /* Blue */
+        }
+
+        #features {
+            padding: 20px;
+        }
+
+        #features h2 {
+            color: #007bff; /* Blue */
+        }
+        /* contact us*/
+        #contact-us {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #contact-us h2 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        #contact-us p {
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form textarea {
+            resize: vertical;
+        }
+
+        form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        /* timeline */
+        #timetable {
+            padding: 20px;
+        }
+
+        #timetable h2 {
+            color: #007bff; 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff; 
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+/* discussions*/
+#discussion {
+    padding: 20px;
+}
+
+#discussion h2 {
+    color: #007bff; 
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.post .author {
+    font-weight: bold;
+}
+
+.post .timestamp {
+    font-style: italic;
+    color: #999;
+}
+/*share resources*/
+#share-resources {
+    padding: 20px;
+}
+
+#share-resources h2 {
+    color: #007bff; 
+}
+
+.resource {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.resource h3 {
+    color: #007bff; 
+    margin: 0;
+    padding: 5px 0;
+}
+
+.resource .description {
+    color: #555;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.resource .download-link {
+    color: #007bff; 
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.resource .download-link:hover {
+    color: #87cefa; 
+}
